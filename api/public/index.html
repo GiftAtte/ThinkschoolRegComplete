@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinkschool Registration</title>
+</head>
+<body>
+    <h1>Welcome To Thinkschool Ristration</h1>
+</body>
+
+<script>
+    function decentNumber(n) {
+  let numOfFives = "";
+  let numOfThrees = "";
+  let strN = n.toString().split('');
+  for (let str = 0; str<strN.length; str++) {
+     // console.log(parseInt(strN[str])!==5)
+      //console.log(strN[str])
+    if (parseInt(strN[str]) !== 5 && parseInt(strN[str]) !== 3) {
+      console.log(-1);
+      break;
+    }else{
+    if (Number(strN[str]) === 3) {
+      numOfThrees = numOfThrees + strN[str];
+    } else {
+      numOfFives = numOfFives + strN[str];
+    }
+  }
+  }
+  if (numOfFives.length % 3 === 0 && numOfThrees.length % 5 === 0) {
+    console.log(n);
+  } else {
+    console.log(-1);
+  }
+}
+decentNumber(3)
+</script>
+</html>

@@ -1,0 +1,93 @@
+html,
+body { 
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bi{
+  cursor: pointer;
+}
+.sidebar{
+  background-color: rgb(19, 3, 53);
+  color: aliceblue;
+}
+.sidebar ul {
+ list-style: none;
+ left: 10px;
+ font-size: medium;
+
+
+}
+.sidebar-link {
+  padding: 10px;
+  text-decoration: none;
+  
+
+}
+
+.sidebar-link :hover{
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(232, 131, 7);
+  display: flex;
+  border-radius: 50px;;
+  text-align: justify;
+  color: white;
+}
+.nav-tree{
+  display: flex;
+ justify-content: space-between;
+ cursor: pointer;
+   background-color:rgb(19, 3, 53);
+}
+.nav-tree ul{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+    background-color:rgb(19, 3, 53);
+}
+.nav-tree ul, li:hover{
+   background-color:rgb(19, 3, 53)!; 
+}
+.nav-tree:hover{
+
+  text-decoration: none;
+  background-color:rgb(19, 3, 53)!; 
+  display: flex;
+  border-radius: 50px;;
+  padding: 10px;
+  text-align: justify;
+  color: white;
+}
+
+
+.active-route{
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-color: rgb(232, 131, 7);
+  display: flex;
+  border-radius: 50px;;
+  padding: 10px;
+  text-align: justify;
+  color: white;
+}
+.my-input{
+  height: 60px;
+  font-size: medium;
+}
+.login{
+  background-image: url('../public/img/Student2.png');
+  background-size: cover;
+
+
+}

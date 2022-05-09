@@ -1,0 +1,36 @@
+{
+  "name": "thinkschoolreg",
+  "version": "1.0.0",
+  "description": "thinkschool registration system",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiftAtte/ThinkschoolReg.git"
+  },
+  "keywords": [
+    "Thinkschool",
+    "Registration"
+  ],
+  "author": "Gift Atte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiftAtte/ThinkschoolReg/issues"
+  },
+  "homepage": "https://github.com/GiftAtte/ThinkschoolReg#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.3",
+    "validator": "^13.7.0"
+  }
+}
